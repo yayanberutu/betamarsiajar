@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.hokagelab.www.yodu">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cerdas"
+        android:label="@string/app_name1"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".SplashScreen"
+            android:label="@string/app_name1"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".alphabet"
+            android:theme="@style/AppThemeDua" />
+        <activity
+            android:name=".angka"
+            android:theme="@style/AppThemeTiga" />
+        <activity
+            android:name=".bentuk"
+            android:theme="@style/AppThemeEmpat" />
+        <activity android:name=".hewan" />
+        <activity android:name=".buah" />
+        <activity android:name=".warna" />
+        <activity android:name=".membaca" />
+        <activity android:name=".menghitung" />
+        <activity android:name=".lagu" />
+        <activity android:name=".MainActivity2"/>
+        <activity android:name=".CreateContactActivity"></activity>
+        <activity android:name=".UpdateContactActivity"></activity>
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".About"></activity>
+        <activity android:name=".activity.RegisterActivity" />
+        <activity android:name=".activity.MainActivity1" />
+        <activity android:name=".activity.DosenActivity" />
+        <activity android:name=".activity.MatkulActivity" />
+        <activity android:name=".activity.TambahMatkulActivity" />
+        <activity android:name=".activity.MatkulDetailActivity" />
+        <activity android:name=".activity.TambahMatkulActivity2"></activity>
+        <activity android:name=".activity.LoginActivity"></activity>
+    </application>
+
+</manifest>
